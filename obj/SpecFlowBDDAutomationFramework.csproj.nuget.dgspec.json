@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "E:\\2023\\SpecflowBDDFramework\\Repo\\SpecFlowBDDAutomationFramework\\SpecFlowBDDAutomationFramework.csproj": {}
+    "C:\\Users\\Priya\\RiderProjects\\APISpecFlowPOC\\SpecFlowBDDAutomationFramework.csproj": {}
   },
   "projects": {
-    "E:\\2023\\SpecflowBDDFramework\\Repo\\SpecFlowBDDAutomationFramework\\SpecFlowBDDAutomationFramework.csproj": {
+    "C:\\Users\\Priya\\RiderProjects\\APISpecFlowPOC\\SpecFlowBDDAutomationFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\2023\\SpecflowBDDFramework\\Repo\\SpecFlowBDDAutomationFramework\\SpecFlowBDDAutomationFramework.csproj",
+        "projectUniqueName": "C:\\Users\\Priya\\RiderProjects\\APISpecFlowPOC\\SpecFlowBDDAutomationFramework.csproj",
         "projectName": "SpecFlowBDDAutomationFramework",
-        "projectPath": "E:\\2023\\SpecflowBDDFramework\\Repo\\SpecFlowBDDAutomationFramework\\SpecFlowBDDAutomationFramework.csproj",
-        "packagesPath": "C:\\Users\\Bakkappa N\\.nuget\\packages\\",
-        "outputPath": "E:\\2023\\SpecflowBDDFramework\\Repo\\SpecFlowBDDAutomationFramework\\obj\\",
+        "projectPath": "C:\\Users\\Priya\\RiderProjects\\APISpecFlowPOC\\SpecFlowBDDAutomationFramework.csproj",
+        "packagesPath": "C:\\Users\\Priya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Priya\\RiderProjects\\APISpecFlowPOC\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Bakkappa N\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Priya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
         }
       },
       "frameworks": {
@@ -56,9 +66,17 @@
               "target": "Package",
               "version": "[4.1.0, )"
             },
+            "Newtonsoft.Json.Schema": {
+              "target": "Package",
+              "version": "[4.0.2-beta1, )"
+            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.6.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[131.0.6778.8500, )"
             },
             "SpecFlow.NUnit": {
               "target": "Package",
@@ -79,7 +97,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -88,7 +107,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
