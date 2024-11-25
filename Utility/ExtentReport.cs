@@ -29,7 +29,7 @@ namespace SpecFlowBDDAutomationFramework.Utility
 
             _extentReports = new ExtentReports();
             _extentReports.AttachReporter(htmlReporter);
-            _extentReports.AddSystemInfo("Application", "Github");
+            _extentReports.AddSystemInfo("Application", "API");
             _extentReports.AddSystemInfo("Browser", "Chrome");
             _extentReports.AddSystemInfo("OS", "Windows");
         }

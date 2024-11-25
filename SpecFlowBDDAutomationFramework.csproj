@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Features\GetRequest.feature.cs">
+    <Compile Update="Features\APIFeatureFile.feature.cs">
       <DependentUpon>GetRequest.feature</DependentUpon>
       <AutoGen>true</AutoGen>
       <DesignTime>true</DesignTime>
